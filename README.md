@@ -58,9 +58,7 @@ Absolutely! Our family facilities include:
 
 **A**:
 Yes, of course! Here are our late check-out options:
-
 Until 19:00 → €60 extra
-
 Until late evening → €120 extra
 
 Note: If you'd like to keep your All-Inclusive wristband during this extended stay, there's an extra charge of €50.
@@ -70,13 +68,13 @@ Note: If you'd like to keep your All-Inclusive wristband during this extended st
 
 ---
 
-** EXPERIENCE PLANNER (optional future feature) **
+**EXPERIENCE PLANNER (optional future feature)**
 Interactive quiz:
 
 "What kind of traveler are you? Family / Couple / Explorer / Relax-seeker"
 Returns 3-5 custom suggestions: beaches, food, local shops, activities.
 
-** NEXT STEPS **
+**NEXT STEPS**
 
 Update the live chatbot flow with added pricing info & kids' facilities
 Develop quick-reply buttons for most-used services
