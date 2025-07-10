@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+/* Floating chat icon */
+#chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2c3e50;  /* navy blue */
+  color: white;
+  font-size: 24px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Chat box container */
+#chat-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  max-height: 450px;
+  background: #ffffff;    /* soft white */
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Header */
+#chat-header {
+  background: #365d77;  /* soft marine blue */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Chat messages */
+#chat-box {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  scroll-behavior: smooth;    /* smooth scrolls */
+}
+
+.bot-message, .user-message {
+  margin: 8px 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+#chat-toggle {
+  background: #2c3e50;  /* navy blue */
+}
+
+#chat-container {
+  background: #ffffff;
+}
+
+#chat-header {
+  background: #365d77;  /* soft marine blue */
+}
+
+.bot-message, .user-message {
+  margin: 8px 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.bot-message {
+  background: #f2f6f8;  /* soft gray-blue */
+  align-self: flex-start;
+}
+
+.user-message {
+  background: #d8f1e4;  /* mint green */
+  align-self: flex-end;
+  text-align: right;
+}
+
+/* Input area */
+#chat-input-container {
+  display: flex;
+  padding: 8px;
+  background: #eee;
+}
+
+#chat-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+}
+
+#send-btn {
+  background: #365d77;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Προαιρετικές αλλαγές για πιο ωραίο αποτέλεσμα */
+
+#send-btn:hover {
+  background: #2c3e50;   /* Hover effect στο send button */
+}
+
+@media (max-width: 400px) {
+  #chat-container {        /* Responsive design μικρής οθόνης (π.χ. κινητό) */
+    width: 90%;
+    right: 5%;
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Almyra Chatbot</title>
+  <div id="chat-toggle">💬</div>
+    <div id="chat-container" class="hidden">
+    <div id="chat-header">Almyra Chat</div>
+    <div id="chat-box"></div>
+    <div id="chat-input-container">
+        <input type="text" id="chat-input" placeholder="Type your message..." />
+        <button id="send-btn">Send</button>
+    </div>
+  </div>
+  
+</head>
+<body>
+  <!-- Floating Chat Button -->
+  <div id="chat-toggle">💬</div>
+
+  <!-- Chat Container -->
+  <div id="chat-container" class="hidden">
+    <div id="chat-header">Almyra Assistant</div>
+    <div id="chat-box">
+      <div class="bot-message">Hello 👋 I’m your virtual assistant. How can I help you?</div>
+    </div>
+    <div id="chat-input-container">
+      <input type="text" id="chat-input" placeholder="Type a message..." />
+      <button id="send-btn">➤</button>
+    </div>
+  </div>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>

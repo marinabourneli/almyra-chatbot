@@ -80,6 +80,14 @@ Update the live chatbot flow with added pricing info & kids' facilities
 Develop quick-reply buttons for most-used services
 Launch preview demo for internal testing
 
+
+**ΕΠΙΛΟΓΕΣ ΠΟΥ ΑΦΟΡΟΥΝ ΤΗΝ ΕΜΦΑΝΗΣΗ**
+✅ Συνεπή χρωματική παλέτα  (μπλε-γκρι-λευκό)
+✅ Smooth scroll
+✅ Responsive συμπεριφορά
+✅ Hover effects    
+✅ Καθαρές και ευανάγνωστες δομές
+
 almyra-chatbot/
 │
 ├── index.html
